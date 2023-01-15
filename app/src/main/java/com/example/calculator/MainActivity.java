@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             firstNumber = Double.parseDouble((binding.num1.getText().toString()));
             secondNumber = Double.parseDouble((binding.num2.getText().toString()));
 
-            binding.result.setText(firstNumber / secondNumber + "");
+            binding.result.setText(firstNumber / secondNumber + "" );
 
         });
 
